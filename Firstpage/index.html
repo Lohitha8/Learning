@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First task</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 p-1 text-center ">
+                <span class="btn-danger p-2 ">Calculations</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 p-2 mymargin">
+                First value <input type="text" id="num1" /></div>
+            <div class="col-sm-6p p-2 mymargin">
+                Second value <input type="text" id="num2" /></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 p-2 text-center ">
+                <span class="btn-danger btn btn-primary">
+                    <input type="button" value="ADD" onclick ="add()"/>
+                    <input type="button" value="SUB" onclick ="sub()"/>
+                    <input type="button" value="MUL" onclick ="mul()"/>
+                    <input type="button" value="DIV" onclick ="div()"/>
+                </span>
+              <div class="row  mt-50">
+                <div class="col-sm-12 p-1 text-center ">
+                    <span class="btn-danger btn btn-primary">
+                        <p type="text" id="result"></p>
+
+              </div>  
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

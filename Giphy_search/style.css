@@ -1,0 +1,18 @@
+body {
+    background-image: url("giphy.jpg");
+  }
+  
+  .header {
+    padding: 100px 50px 50px 40px;
+    position: relative;
+    top: 50px;
+  }
+  h1 {
+    font-weight: bold;
+    font-style: normal;
+    font-family: "Times New Roman";
+    font-size: 60px;
+    color: #9e5896;
+    text-align: center;
+  }
+  
