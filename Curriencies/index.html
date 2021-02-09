@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currencies</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="continer text-center text-warning font-weight-bold" style="margin-top:40px;">
+        <h3  style="color: purple;">Currency Converter</h3>
+    </div>
+    <div class="continer text-center" style="margin-top:100px;">
+        <input class="p-1" type="number" id="txt" placeholder="Enter" name="currency" \>
+        <button class="btn btn-outline-primary" id="btndata" type="button">Convert</button>
+    </div>
+    <div class="text-center text-danger font-weight-bold"><span>(*) input INR value</span></div>
+    
+    <div class="container">
+        <div class="row text-center p-3">
+            <div id="currencies" class="col-12"></div>
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
