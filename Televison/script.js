@@ -4,7 +4,7 @@ btn.addEventListener("click", (x) => {
 });
 function getTvshows() {
   var input = document.getElementById("tnt").value;
-  var url = "http://api.tvmaze.com/search/shows?q=" + input;
+  var url = "https://api.tvmaze.com/search/shows?q=" + input;
   getData(url);
 }
 
