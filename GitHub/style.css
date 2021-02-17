@@ -1,0 +1,74 @@
+.m-top10 {
+  margin-top: 10px !important;
+}
+
+.m-top20 {
+  margin-top: 20px !important;
+}
+
+.m-left55 {
+  margin-left: 50px !important;
+}
+
+.m-top50 {
+  margin-top: 50px !important;
+}
+
+.m-left35 {
+  margin-left: 20px !important;
+}
+.border-hgt {
+  height: 200px;
+  width: 600px;
+}
+
+body {
+  background: red;
+  background: linear-gradient(to bottom, #ffffff, #ff8855);
+  height: 100vh;
+}
+
+.font-black {
+  color: black !important;
+}
+
+.content-style {
+  color: black !important;
+  padding: 5px;
+  border-bottom: 1px solid rgb(8, 3, 3);
+}
+.username-style {
+  font-size: 38px;
+  font-weight: 200px;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+.left-menu {
+  max-height: 90vh;
+  overflow-y: scroll;
+}
+
+.repositories {
+  max-height: 80vh;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
