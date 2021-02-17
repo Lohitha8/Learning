@@ -19,7 +19,7 @@ function searchRepos(input) {
             });
             html += '</div>';
             document.getElementById("datalistOptions").innerHTML = html;
-            document.getElementById("DataList").click();
+            
         })
 }
 
