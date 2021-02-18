@@ -8,7 +8,7 @@ document.getElementById("searchbtn").addEventListener("click", () => {
 })
 
 function searchRepos(input) {
-    let url = "http://api.github.com/search/repositories?q=" + input;
+    let url = "https://api.github.com/search/repositories?q=" + input;
     fetch(url)
         .then(response => response.json()).then(res => {
             var html = "";
